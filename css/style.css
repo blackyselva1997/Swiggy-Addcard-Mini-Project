@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+.col {
+    width: 55%;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.card {
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    border: 1px solid #b5b6be;
+    box-shadow: 1px 1px 1px 1px #b5b6be;
+    cursor: pointer;
+}
+
+.img img {
+    max-width: 100%;
+}
+
+.imghed {
+    margin-top: 10px;
+}
+
+.imghed h2 {
+    font-size: 20px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.imghed p {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.iconrate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #888585;
+}
+
+.iconrate p {
+    color: #535665;
+    font-size: 12px;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 3px;
+    color: #fff;
+    background-color: #48c479;
+}
+
+.icon1 p {
+    color: #fff;
+}
+
+.addbutton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+    color: #8a584b;
+}
+
+.off {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.off span {
+    color: #8a584b;
+    font-size: 15px;
+}
+
+.border {
+    color: #5d8ed5;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #888585;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.card:hover .border {
+    visibility: visible;
+}
+
+.card1 {
+    padding: 20px;
+    opacity: 0;
+    border: 1px solid #b5b6be;
+    box-shadow: 1px 1px 1px 1px #b5b6be;
+}
+
+#output {
+    border: none;
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.hed p {
+    color: #686b78;
+    font-size: 15px;
+}
+
+.hed h1 {
+    padding-top: 10px;
+}
+
+.icon {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon iconify-icon {
+    color: #fc0000;
+}
+
+.rate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rate p {
+    color: #686b78;
+    font-size: 15px;
+}
+
+.check h5 {
+    width: 100%;
+    background-color: #60b246;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.icon p {
+    padding-left: 10px;
+}
+
+#increment,#decrement {
+    font-size: 18px;
+    padding: 0 2px;
+}
